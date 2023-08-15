@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fcfcfc;
   font-size: 16px;
@@ -12,6 +12,22 @@ ul {
 .link {
   text-decoration: none;
 }
-.logo-header {
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+}
+.link-logo {
   color: #4d5ae5;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-header {
+  color: #2e2f42;
 }
