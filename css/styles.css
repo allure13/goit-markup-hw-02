@@ -10,7 +10,7 @@ body {
 ul {
   list-style-type: none;
 }
-.link {
+address.link {
   text-decoration: none;
 }
 
@@ -30,13 +30,23 @@ ul {
 .link-logo .logo-header {
   color: #2e2f42;
 }
-.navigation-links .nav-link {
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+.nav-link {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.navigation-links .nav-link:hover,
-.navigation-links .nav-link:focus {
+address.link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+  color: #434455;
+}
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 .address-header {
@@ -92,7 +102,7 @@ ul {
 .team-class {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   font-weight: 700;
   line-height: 1.11;
   text-align: center;
@@ -105,7 +115,7 @@ ul {
 .team-name-class {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   font-weight: 500;
   color: #2e2f42;
 }
@@ -120,7 +130,7 @@ ul {
 .portfolio-class {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   font-weight: 700;
   line-height: 1.11;
   text-align: center;
@@ -130,14 +140,14 @@ ul {
 .portfolio-apps {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   font-weight: 500;
   color: #2e2f42;
 }
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -150,7 +160,7 @@ ul {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
